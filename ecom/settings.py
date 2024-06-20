@@ -17,7 +17,7 @@ load_dotenv()
 SECRET_KEY = 'django-insecure-x4m$gfeda-r+)u05g*bzm%8#_vz&8-wl^3epo45gqi#_eqwvtq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['django-ecom-production-7df9.up.railway.app', 'https://django-ecom-production-7df9.up.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://django-ecom-production-7df9.up.railway.app']
