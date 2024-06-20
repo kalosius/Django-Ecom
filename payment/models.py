@@ -62,9 +62,6 @@ def set_shipped_date_on_update(sender, instance, **kwargs):
 
 
 
-
-
-
 # Create Order Items Model
 class OrderItem(models.Model):
 	# Foreign Keys
