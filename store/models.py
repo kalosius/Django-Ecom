@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 
 
+
 # Create Customer Profile
 class Profile(models.Model):
 	user = models.OneToOneField(User, on_delete=models.CASCADE)
