@@ -119,6 +119,7 @@ def product(request,pk):
 	return render(request, 'product.html', {'product':product})
 
 
+
 def home(request):
 	products = Product.objects.all()
 	return render(request, 'home.html', {'products':products})
