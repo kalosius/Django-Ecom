@@ -20,7 +20,6 @@ CSRF_TRUSTED_ORIGINS = ['https://druinteriors.me', 'https://https://django-ecom-
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
