@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Load environmental variables
-# load_dotenv()
+load_dotenv()
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -78,8 +78,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': os.environ['DB_PASSWORD_YO'],
-        # 'PASSWORD': 'emaJwSArkoUoBLyAtEKkveHHbQngjagp',
+        # 'PASSWORD': os.environ.get('DB_PASSWORD_YO'),
+        'PASSWORD': 'emaJwSArkoUoBLyAtEKkveHHbQngjagp',
         'HOST': 'viaduct.proxy.rlwy.net',
         'PORT': '51805',
         
