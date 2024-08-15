@@ -15,8 +15,8 @@ SECRET_KEY = 'django-insecure-x4m$gfeda-r+)u05g*bzm%8#_vz&8-wl^3epo45gqi#_eqwvtq
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['https://druinteriors.me', 'druinteriors.me', 'django-ecom-p7uj.onrender.com', 'https://django-ecom-p7uj.onrender.com', '127.0.0.1', 'https://druenterprises.onrender.com/', 'druenterprises.onrender.com', 'localhost', 'bd8f-41-75-178-76.ngrok-free.app']
-CSRF_TRUSTED_ORIGINS = ['https://druinteriors.me', 'https://https://django-ecom-p7uj.onrender.com', 'https://bd8f-41-75-178-76.ngrok-free.app']
+ALLOWED_HOSTS = ['https://druinteriors.me', 'druinteriors.me', 'django-ecom-p7uj.onrender.com', 'https://django-ecom-p7uj.onrender.com', '127.0.0.1', 'https://druenterprises.onrender.com/', 'druenterprises.onrender.com', 'localhost', '717e-41-75-180-77.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://druinteriors.me', 'https://https://django-ecom-p7uj.onrender.com', 'https://717e-41-75-180-77.ngrok-free.app']
 
 
 # Application definition
