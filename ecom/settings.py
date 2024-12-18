@@ -19,6 +19,7 @@ ALLOWED_HOSTS = ['https://druinteriors.me', 'druinteriors.me', 'django-ecom-p7uj
 CSRF_TRUSTED_ORIGINS = ['https://druinteriors.me', 'https://https://django-ecom-p7uj.onrender.com', 'https://717e-41-75-180-77.ngrok-free.app']
 
 
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
