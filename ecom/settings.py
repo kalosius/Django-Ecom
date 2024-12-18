@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'paypal.standard.ipn',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
